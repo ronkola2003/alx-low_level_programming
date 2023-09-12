@@ -1,0 +1,13 @@
+#include "main.h"
+
+/**
+ * print_sign - print the sign of a number
+ * @n: number to be checked
+ * Return: 1 for positive number, -1 for negative number ,zero for anything else
+ */
+
+{
+	while (n > 0)
+	{
+	_putchar
+
