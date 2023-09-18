@@ -1,31 +1,21 @@
 #include "main.h"
-
 /**
- * puts2 - function sholud print only one character out of two
- * starting with the first one
- * @str: input
- * Return: print
+ * puts2 - prints a str, followed by a new line,
+ * @str: pointer to the string to print
+ * Return: void
  */
+
 void puts2(char *str)
 {
-int longi = 0;
-int t = 0;
-char *y = str;
-int 0;
-
-while (*y != '\0')
+int index = 0;
+while (str[index] != '\0')
 {
-	y++;
-	longi++
-}
-t = longi - 1;
-for (o = 0 ; o <= t ; o++)
+if (index % 2 == 0)
 {
-if (i % 2 == 0)
-{
-	_putchar(str[0]);
-}
-}
-	_putchar('\n');
+_putchar(str[index]);
 }
 
+index++;
+}
+_putchar('\n');
+}
