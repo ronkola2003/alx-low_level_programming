@@ -15,6 +15,7 @@ int src = j;
 i = 0;
 while (dest[i] != '\0'; i++)
 	dest++;
+
 {
 j = 0;
 while (src[j] != '\0'; i++)
@@ -22,5 +23,7 @@ while (src[j] != '\0'; i++)
 }
 dest[i] = src[j]
 i++;
+{
+return (dest);
 }
-
+}
