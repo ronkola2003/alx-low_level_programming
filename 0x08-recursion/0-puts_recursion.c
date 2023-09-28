@@ -1,18 +1,17 @@
 #include "main.h"
 
 /**
- * _puts_recursion - function that prints s string
+ * _puts_recursion - prints s string
  * @s: string to print
  * Return: 0
  */
 void _puts_recursion(char *s);
 {
-	if (*s == '\0')
+	int s
 	{
-		_putchar('\n');
+		_putchar(*s);
+		_puts_recursion(s + 1);
 		return;
 	}
-	_putchar(*s);
-	s++;
-	_puts_recursion(s);
+	_putchar("%d\n", s);
 }
