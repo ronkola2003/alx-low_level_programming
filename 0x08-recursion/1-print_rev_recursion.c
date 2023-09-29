@@ -4,7 +4,7 @@
  * @s: string in reverse
  * Return: 0
  */
-void _print_rev_recursion(char *s);
+void _print_rev_recursion(char *s)
 {
 	if (*s)
 	{
@@ -12,5 +12,3 @@ void _print_rev_recursion(char *s);
 	_putchar(*s);
 	}
 }
-
-
